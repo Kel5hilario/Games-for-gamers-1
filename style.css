@@ -1,0 +1,101 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1{
+    text-align:center;
+}
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  length:200px;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2{
+    text-align:center;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content:space-between;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border: 5px black solid;
+    margin:5px;
+}
+img{
+  width: 235px;
+}
+.section2
+img{
+  length: 110px;
+}
+
+body{
+  color:black ;
+  background-color:#d3dfe1;
+}
+h1 {
+  text-shadow: 2px 2px #FFA500;
+}
+
+.section{
+  text-shadow: 2px 2px #808080;
+}
+.yellow{
+  color:green;
+}
+li{
+  font-size: 25px;
+}
+button{
+  background-color:#ccccff;
+  color: #564991;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item1{
+    margin:10px;
+    padding:25px;
+    border:2px solid black;
+    background:#bada55;
+}
+.img{
+  border: 2px dashed black;
+}
+.menu1{
+  display: flex;
+  justify-content: space-between;
+}
+.item2 {
+    margin:5px;
+    padding:5px;
+    border:2px solid black;
+    background:#decade;
+}
+.item3 {
+    margin:40px;
+    padding:138px;
+    border:5px solid black;
+    background:#f4f4ea;
+}
+.menu3{
+  display: flex;
+  justify-content: space-between;
+    text-align:center;
+  background: #ffffff; border-radius: 50px;
+  font-family: "Comic Sans";
+font-size: 12px;
+text-align:left;
+color: blue;
+  font-size:28px;
+}
+
+
